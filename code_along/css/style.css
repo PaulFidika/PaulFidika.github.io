@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Mono:400,700&display=swap');
+
+/* * {
+  border: 2px solid gold;
+}*/
+
+body {
+  background-color: #00aeff;
+  color: white;
+  font-size: 16x;
+  font-family: "Roboto Mono", sans-serif;
+
+}
+
+h1 {
+  padding: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  background-color: grey;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+#firstList {
+  /*margin: 40px;
+  border: 2px solid black;
+  padding: 5px 0px 5px 20px;*/
+  color: black;
+  font-weight: bold;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#firstList li {
+  /* display: inline-block; */
+  margin: 20px;
+}
+
+#secondList {
+  background: grey;
+  font-style: oblique;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+}
+
+.birds {
+  color: blue;
+  text-decoration: line-through;
+}
+
+.orcas {
+  color: orange;
+  text-decoration: underline;
+}

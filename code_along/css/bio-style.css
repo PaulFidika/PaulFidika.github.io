@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Mono:400,700&display=swap');
+
+body {
+  background-color: grey;
+  color: white;
+  font-size: 16x;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+a {
+  color: aqua;
+}
